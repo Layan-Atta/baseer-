@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بصير الافتراضي</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eaf7f7;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: white;
+            width: 90%;
+            max-width: 1000px;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            text-align: right;
+        }
+        .header {
+            background-color: #f2faff;
+            border-radius: 20px;
+            padding: 10px;
+            margin-bottom: 20px;
+            color: #2d7f9e;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        .chat-box {
+            background-color: #f7faff;
+            border-radius: 15px;
+            padding: 20px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .chat-box p {
+            margin: 10px 0;
+        }
+        .source {
+            color: #2d7f9e;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .button-container {
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .bot-button {
+            background-color: #2d7f9e;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        .bot-button:hover {
+            background-color: #266684;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        كيف هي أجواء أبها وماهي الفعاليات المناسبة لهذه الأجواء؟
+    </div>
+    <div class="chat-box">
+        <p>أبها تتميز بأجوائها المعتدلة واللطيفة، خاصة في هذا الفصل فصل الصيف. الآن وحتى منتصف أكتوبر أبها مشهورة بأمطارها والسحاب السائح بشكل متفاوت، ويمكنك استعمال الكاميرات البث المباشر...</p>
+        <p>بالنسبة للفعاليات، هناك العديد من الأنشطة التي يمكنك الاستمتاع بها في أبها:</p>
+        <ul>
+            <li>القرية السحرية: تجربة ممتعة مع أجواء ضبابية وعروض موسيقية وفلكلورية.</li>
+            <li>منطقة مقابلة: تذوق أشهى المأكولات المحلية والعالمية التي تقدمها طهاة سعوديون.</li>
+            <li>سوق عسير: تجربة تسوق محلية فريدة.</li>
+            <li>جولات سياحية: استكشاف المناطق الطبيعية والمعالم الشهيرة مثل سد أبها وسوق الثلاثاء.</li>
+        </ul>
+        <p>هل هناك نوع معين من الفعاليات أو الأنشطة التي تفضلها؟</p>
+        <div class="source">
+            المصدر 3+
+        </div>
+    </div>
+
+    <!-- Bot buttons -->
+    <div class="button-container">
+        <button class="bot-button">الفعاليات في المناطق القريبة</button>
+        <button class="bot-button">موعد ظهور السحب</button>
+        <button class="bot-button">الإعدادات</button>
+    </div>
+
+    <div class="footer">
+        ما الذي يدور في ذهنك؟
+    </div>
+</div>
+
+</body>
+</html>
